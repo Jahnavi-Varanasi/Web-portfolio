@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+        }
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: black;
+            padding: 15px 0;
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            z-index: 1000;
+        }
+        .logo{
+            position: relative;
+            font-size: 55px;
+            color: white;
+            text-decoration: solid;
+            font-weight: 900;
+            padding-right: 550px;  
+        }
+        .logo span{
+            color: #b908f9f1;
+        }
+        header nav a {
+            color: white;
+            padding: 20px 10px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        header nav a:hover {
+            color:  #b908f9f1;
+        }
+        section {
+            padding: 100px;
+            height: 100vh;
+        }
+        .profile-photo img {
+           border-radius: 50%;
+           width: 300px;
+           height: 300px;
+        }
+        .content{
+            position:relative;
+            width: 50%;
+        }
+        #intro {
+            text-align:center;
+            font-size: 20px;
+            color: white;
+            align-items: center;
+            display: flex;
+            gap: 300px;
+            padding-top: 2px;
+        } 
+        #intro h1{
+            font-size: 50px;
+            color: rgb(236, 42, 220);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        #intro p{
+            font-size: 20px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+        }
+        .btn{
+            background-color: #b908f9f1;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 40px;
+            font-size: 20px;
+            width: 100px;
+            height: 25px;
+            margin: auto; 
+        }
+        .btn a{
+            color: white;
+            text-decoration: none;
+        }
+        #education,#skills, #Participation, #certifications, #contact{
+            font-size: 30px;
+        }
+        h2 {
+            font-size: 50px;
+            color: rgb(236, 42, 220);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 25px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            align-self: center;
+            display: flex;
+            gap: 20px;
+        }
+        ul li {
+            padding: 10px 10% 0;
+            font-size: 20px;
+            background-color: rgb(135, 29, 215);
+            display: flex;
+            align-items: center;
+            border-radius: 14px;
+            padding-left: 100px;
+            height: 210px;  
+        }
+        #contact a {
+            color: #3656c1;
+            text-decoration: none;
+        }
+        footer {
+            background-color: #b908f9f1;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">P<span>ortfolio</span></a>
+        <nav class="sub names">
+            <a href="#intro">Home</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#Participation">Participation</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+        <section id="intro">
+            <div class="content">
+                <h1>Hi,I'm Jahnavi Varanasi</h1>
+                <p>I am from Srikakulam.Currently,I am pursuing a B-Tech degree in Information Technology from Aditya Institute Of Technology And Management(AITAM),Tekkali.</p> 
+                <p>I am particularly interested in becoming an full stack developer.</p>
+                <div class="btn">
+                    <a href="abotme.html">About Me</a>
+                </div>
+            </div>
+            <div class="profile-photo">
+                <img src="images/profile.jpg" alt="Profile Photo">
+            </div>
+        </section>
+    </header>
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>Bachelor's in Information Technology from Aditya Institute Of Technology And Management</li>
+            <li>Higher Secondary Classes from Sri Chaitanya College,Srikakulam</li>
+            <li>High School from Keshava Reddy School,Srikakulam</li>
+        </ul>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+            <p>C Language,Python</p>
+            <p>Problem solving in Data Structures</p>
+            <p>Frontend like HTML,CSS</p>
+            
+    </section>
+    <section id="Participation">
+        <h2>Participation</h2>
+            <p>Participated as NSS Volunteer</p>
+            <p>Participated in Compile and Conquer-C Challenge</p>
+    </section>
+    <section id="certifications">
+        <h2>Certifications</h2>
+            <p>Certificate in participating in Nxtwave meeting</p>
+            <p>Certificate in learning Web Development</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:janu333jahnavi@gmail.com">janu333jahnavi@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/Jahnavi Varanasi" target="_blank">Jahnavi Varanasi</a></p>
+            <p>GitHub: <a href="https://github.com/Jahnavi-Varanasi" target="_blank">Jahnavi-Varanasi</a></p>
+    </section>
+    <footer>
+        <p>© 2024 JAHNAVI. All rights reserved.</p>
+    </footer>
+</body>
+</html>
